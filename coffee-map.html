@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>London Coffee</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<style>
+  html, body, article {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  footer {
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    text-align: center;
+    color: #333;
+    font-family: sans-serif;
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    margin: 0;
+    padding: 0 0 5px 5px;
+  }
+  a, a:visited, a:hover, a:active {
+    color: #333;
+    text-decoration: none;
+  }
+  #coffee-map {
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+
+<article>
+<div id="coffee-map"></div>
+</article>
+<footer>
+London Coffee by <author><a rel="me" href="http://pkqk.net/coffee">pkqk.net</a></author>
+</footer>
+<script>
+(function() {
+  var start = new google.maps.LatLng(51.549257,-0.079168);
+  var options = {
+    zoom: 13,
+    center: start,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("coffee-map"), options);
+  
+  var coffee_kml = "http://maps.google.com/maps/ms?ie=UTF8&hl=en&vps=2&jsv=346d&authuser=0&oe=UTF8&msa=0&msid=213969472461206906420.000475936f7ee82063622&output=kml"
+  var coffee_layer = new google.maps.KmlLayer(coffee_kml);
+  coffee_layer.setMap(map);
+  
+})();
+</script>
+</body>
+</html>
