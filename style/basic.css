@@ -6,14 +6,20 @@ article h2 {
 a {
   text-decoration: none;
   color: #268bd2;
+  -webkit-transition: color 0.3s linear;
 }
 a:visited {
   color: #d33682;
+  color: #268bd2;
 }
 a:active {
   color: #dc322f;
 }
 a:hover {
   color: #dc322f;
-  text-decoration: underline;
+  border-bottom: 1px dotted #dc322f;
+}
+body > footer a:hover {
+  text-decoration: none;
+  border-bottom: none;
 }
