@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+  body > header, body > article, body > footer {
+    padding: 5px;
+  }
+  body > header hgroup {
+    padding: 0;
+  }
+  body > header {
+    padding-bottom: 1em;
+  }
+  body > footer {
+    padding-top: 1em;
+  }
+  body > footer p {
+    margin: 0;
+    padding: 0;
+  }
+}
