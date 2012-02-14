@@ -1,0 +1,19 @@
+article h1,
+article h2 {
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: #268bd2;
+}
+a:visited {
+  color: #d33682;
+}
+a:active {
+  color: #dc322f;
+}
+a:hover {
+  color: #dc322f;
+  text-decoration: underline;
+}
