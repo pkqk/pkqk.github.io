@@ -29,9 +29,39 @@
     margin: 0;
     padding: 0 0 5px 5px;
   }
+  footer ul.key {
+    display: inline;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  footer ul.key li {
+    display: inline;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    margin-left: 0.5em;
+  }
+  footer ul.key li span {
+    display: none;
+  }
+  footer ul.key li.good {
+    color: green;
+  }
+  footer ul.key li.todo {
+    color: red;
+  }
+  footer ul.key li.closed {
+    color: blue;
+  }
+  footer ul.key li.average {
+    color: orange;
+  }
   a, a:visited, a:hover, a:active {
     color: #333;
     text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
   }
   #coffee-map {
     width: 100%;
@@ -56,7 +86,13 @@
 <div id="coffee-map"></div>
 </article>
 <footer>
-London Coffee by <author><a rel="me" href="http://pkqk.net/">pkqk.net</a></author>
+<a href="http://g.co/maps/yfumk">London Coffee</a> by <author><a rel="me" href="http://pkqk.net/">pkqk.net</a></author>
+<ul class="key">
+  <li class="good"><span>Green</span> Good</li>
+  <li class="todo"><span>Red</span> Todo</li>
+  <li class="closed"><span>Blue</span> Closed</li>
+  <li class="average"><span>Yellow</span> Average</li>
+</ul>
 </footer>
 <script>
 (function() {
