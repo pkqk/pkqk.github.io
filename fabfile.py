@@ -1,9 +1,9 @@
 from fabric.api import *
 
 env.use_ssh_config = True
-env.hosts.append('pkqk')
 
 @task(default=True)
+@hosts('pkqk')
 def update():
   "Push to github and pull to hosting"
   local("git push")
