@@ -96,10 +96,7 @@
 </footer>
 <script>
 (function() {
-  var start = new google.maps.LatLng(51.549257,-0.079168);
   var options = {
-    zoom: 13,
-    center: start,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
   var map = new google.maps.Map(document.getElementById("coffee-map"), options);
@@ -107,7 +104,14 @@
   var coffee_kml = "http://maps.google.com/maps/ms?ie=UTF8&hl=en&vps=2&jsv=346d&authuser=0&oe=UTF8&msa=0&msid=213969472461206906420.000475936f7ee82063622&output=kml"
   var coffee_layer = new google.maps.KmlLayer(coffee_kml);
   coffee_layer.setMap(map);
-  
+
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+      map.panTo(latlng);
+      map.setZoom(13);
+    });
+  }
 })();
 </script>
 </body>
