@@ -96,7 +96,11 @@
 </footer>
 <script>
 (function() {
+  console.log('welcome to coffee');
+  var london = new google.maps.LatLng(51.518784, -0.096474);
   var options = {
+    zoom: 12,
+    center: london,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
   var map = new google.maps.Map(document.getElementById("coffee-map"), options);
@@ -105,12 +109,18 @@
   var coffee_layer = new google.maps.KmlLayer(coffee_kml, {preserveViewport: true});
   coffee_layer.setMap(map);
 
+  var located = function(position) {
+    console.log('located');
+    latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    map.panTo(latlng);
+    map.setZoom(13);
+    console.log('set to ' + latlng.toString());
+  };
+  var error_locating = function(position_error) {
+  };
+
   if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-      map.panTo(latlng);
-      map.setZoom(13);
-    });
+    navigator.geolocation.getCurrentPosition(located, error_locating, {maximumAge: 6000, timeout: 10});
   }
 })();
 </script>
