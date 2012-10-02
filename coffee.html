@@ -102,7 +102,7 @@
   var map = new google.maps.Map(document.getElementById("coffee-map"), options);
   
   var coffee_kml = "http://maps.google.com/maps/ms?ie=UTF8&hl=en&vps=2&jsv=346d&authuser=0&oe=UTF8&msa=0&msid=213969472461206906420.000475936f7ee82063622&output=kml"
-  var coffee_layer = new google.maps.KmlLayer(coffee_kml);
+  var coffee_layer = new google.maps.KmlLayer(coffee_kml, {preserveViewport: true});
   coffee_layer.setMap(map);
 
   if (navigator.geolocation) {
