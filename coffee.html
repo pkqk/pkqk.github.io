@@ -109,15 +109,19 @@
   coffee_layer.setMap(map);
 
   var located = function(position) {
-    latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-    map.panTo(latlng);
+    var point = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    map.panTo(point);
     map.setZoom(13);
 
     location_marker = new google.maps.Marker({
-      position: latlng,
+      position: point,
       map: map,
       clickable: false,
       icon: "/img/map-icons/blue.png"
+    });
+    navigator.geolocation.watchPosition(function(position) {
+      point = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+      location_marker.setPosition(point);
     });
   };
   var error_locating = function(position_error) {};
