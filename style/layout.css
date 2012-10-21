@@ -84,9 +84,9 @@ body.error em {
   font-weight: bold;
 }
 body.error em q {
+  position: relative;
 }
 body.error em q::before {
-  margin-left: -20px;
-}
-body.error em q::after {
+  position: absolute;
+  right: 100%;
 }
