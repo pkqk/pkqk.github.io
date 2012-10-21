@@ -6,3 +6,5 @@ RewriteRule ^coffee-map$ http://%{HTTP_HOST}/coffee [QSA,R=301,L]
 RewriteRule ^cv$ http://%{HTTP_HOST}/resume [QSA,R=301,L]
 
 AddCharset UTF-8 .html
+
+ErrorDocument 404 /not-found.html

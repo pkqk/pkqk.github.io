@@ -72,3 +72,21 @@ body > footer section.credits {
   color: #93a1a1;
   font-size: 0.8em;
 }
+
+body.error p {
+  font-size: 10px;
+  padding: 0 10px 0 22px;
+}
+body.error em {
+  display: block;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+}
+body.error em q {
+}
+body.error em q::before {
+  margin-left: -20px;
+}
+body.error em q::after {
+}
