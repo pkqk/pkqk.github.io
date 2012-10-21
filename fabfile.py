@@ -13,7 +13,5 @@ def update():
 @hosts('pkqk')
 def css():
     with cd('www/pkqk.net/style'):
-        files = run('ls -1 *.css').split("\r\n")
-        files.remove('composite.css')
-        run('cat %s > composite.css' % " ".join(files))
+        run('cat basic.css layout.css mobile.css resume.css > composite.css')
 
