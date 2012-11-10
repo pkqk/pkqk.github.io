@@ -68,6 +68,13 @@
     width: 100%;
     height: 100%;
   }
+  section.cafe {
+    font-family: sans-serif;
+  }
+  section.cafe h1 {
+    font-size: 1em;
+    margin: 0;
+  }
 </style>
 <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -106,8 +113,31 @@
   var map = new google.maps.Map(document.getElementById("coffee-map"), options);
   
   var coffee_kml = "http://maps.google.com/maps/ms?ie=UTF8&hl=en&vps=2&jsv=346d&authuser=0&oe=UTF8&msa=0&msid=213969472461206906420.000475936f7ee82063622&output=kml"
-  var coffee_layer = new google.maps.KmlLayer(coffee_kml, {preserveViewport: true});
-  coffee_layer.setMap(map);
+  var cafe_popup = new google.maps.InfoWindow();
+
+
+  var set_popup = function(marker, place) {
+    google.maps.event.addListener(marker, 'click', function() {
+      var description = (place['description'] || "");
+      var content = '<section class="cafe"><h1>'+place['name']+'</h1>'+description+'</section>';
+      cafe_popup.setContent(content);
+      cafe_popup.open(map, marker);
+    });
+  };
+
+  window.update_locations = function(cafes) {
+    for(var i=0; i < cafes['placemarks'].length; ++i) {
+      var place = cafes['placemarks'][i];
+      var point = new google.maps.LatLng(place['latitude'], place['longitude']);
+      var marker = new google.maps.Marker({
+        position: point,
+        map: map,
+        title: place['name'],
+        icon: place['icon']
+      });
+      set_popup(marker, place);
+    }
+  };
 
   var located = function(position) {
     var point = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
@@ -132,5 +162,6 @@
   }
 })();
 </script>
+<script src="http://json-argonauts.herokuapp.com/kml.jsonp?callback=update_locations&map=https%3A%2F%2Fmaps.google.co.uk%2Fmaps%2Fms%3Fauthuser%3D0%26vps%3D2%26ie%3DUTF8%26msa%3D0%26output%3Dkml%26msid%3D213969472461206906420.000475936f7ee82063622"></script>
 </body>
 </html>
