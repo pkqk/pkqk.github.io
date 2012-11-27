@@ -1,7 +1,8 @@
 .contact.vcard p { margin: 0; }
 .contact.vcard .adr { margin-top: 1em; }
 address.vcard { font-style: normal; }
-ul.vcalendar { list-style: none; padding-left: 0; margin-left: 0; }
+ul.vcalendar { padding-left: 0; margin-left: 0; }
+ul.vcalendar li { list-style: none; }
 .experience.vevent .org, .experience.vevent .title { display: inline; }
 .experience .adr, .experience .period, .education .adr, .education .period { font-size: 0.8em; }
 .experience .period, .experience .period *, .education .period, .education .period * { font-style: italic; }
