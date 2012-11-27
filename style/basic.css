@@ -7,6 +7,8 @@ a {
   text-decoration: none;
   color: #268bd2;
   -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  transition: color 0.3s linear;
 }
 a:visited {
   color: #d33682;
