@@ -13,3 +13,7 @@ h2, h3 { margin-bottom: 0.5em; }
 ul.vcalendar .summary { margin-top: 1em; }
 .description { margin-top: 1em; }
 .description p { padding-bottom: 0.25em; }
+.visa-category {
+  /*font-feature-settings isn't supported yet :( */
+  font-family: "Georgia", "Courier New";
+}
