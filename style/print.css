@@ -1,0 +1,6 @@
+@media print {
+  h2 a[href^="http"]::after,
+  h3 a[href^="http"]::after {
+    content: " (" attr(href) ")";
+  }
+}

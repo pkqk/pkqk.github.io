@@ -16,4 +16,4 @@ def update():
 @hosts('pkqk')
 def css():
     with cd('www/pkqk.net/style'):
-        run('cat basic.css layout.css mobile.css resume.css > composite.css')
+        run('cat basic.css layout.css mobile.css resume.css print.css > composite.css')
