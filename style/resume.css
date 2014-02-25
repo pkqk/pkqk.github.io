@@ -1,3 +1,4 @@
+header .california { font-family: monospace; }
 .contact.vcard p { margin: 0; }
 .contact.vcard .adr { margin-top: 1em; }
 address.vcard { font-style: normal; }
@@ -9,11 +10,15 @@ ul.vcalendar li { list-style: none; }
 .experience h3, .education h3 { margin-bottom: 0; }
 ul.skills { list-style: outside; padding-left: 0; margin-left: 0; margin-top: 0; }
 ul.skills a { color: inherit; }
+ul.brief li { display: inline; }
+ul.brief li::after { content: ', '; }
+ul.brief li:last-child:after { content: '.'; }
+ul.brief li:last-child:before { content: ' and '; }
 h2, h3 { margin-bottom: 0.5em; }
 ul.vcalendar .summary { margin-top: 1em; }
 .description { margin-top: 1em; }
 .description p { padding-bottom: 0.25em; }
 .visa-category {
   /*font-feature-settings isn't supported yet :( */
-  font-family: "Georgia", "Courier New";
+  font-family: monospace;
 }
