@@ -1,6 +1,6 @@
 @media (max-width: 480px) {
   body > header, body > article, body > footer {
-    padding: 5px;
+    padding: 1em;
   }
   body > header hgroup {
     padding: 0;
