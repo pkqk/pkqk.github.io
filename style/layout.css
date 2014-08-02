@@ -18,17 +18,14 @@ body > header, body > footer {
 }
 body > header {
   border-width: 0 0 2px 0;
+  padding: 2em 10em;
 }
-body > header hgroup {
-  margin: 0;
-  padding: 2em 0;
-}
-body > header hgroup h1 {
+body > header h1 {
   margin: 0;
   padding: 0;
   font-size: 1.5em;
 }
-body > header hgroup h2 {
+body > header h2 {
   margin: 0;
   padding: 0;
   font-size: 1em;
