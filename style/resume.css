@@ -16,4 +16,6 @@ ul.vcalendar .summary { margin-top: 1em; }
 .visa-category {
   /*font-feature-settings isn't supported yet :( */
   font-family: "Georgia", "Courier New";
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
