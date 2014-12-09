@@ -49,7 +49,7 @@
     color: green;
   }
   footer ul.key li.closed {
-    color: blue;
+    color: red;
   }
   footer ul.key li.average {
     color: orange;
@@ -95,7 +95,7 @@
 <ul class="key">
   <li class="good" title="I’ve checked this place out and thing it’s good"><span>Green</span> Good</li>
   <li class="average" title="Other people think this place is good, I don’t agree"><span>Yellow</span> Average</li>
-  <li class="closed" title="It’s on here for completeness but this place was either temporary or it’s closed"><span>Blue</span> Closed</li>
+  <li class="closed" title="It’s on here for completeness but this place was either temporary or it’s closed"><span>Red</span> Closed</li>
 </ul>
 </footer>
 <script>
@@ -121,6 +121,13 @@
     });
   };
 
+  var icon_subs = {
+    'icon-61': "/img/map-icons/green.png",
+    'icon-62': "/img/map-icons/green.png",
+    'icon-157': "/img/map-icons/yellow.png",
+    'icon-169': "/img/map-icons/red.png"
+  };
+
   window.update_locations = function(cafes) {
     for(var i=0; i < cafes['placemarks'].length; ++i) {
       var place = cafes['placemarks'][i];
@@ -129,7 +136,7 @@
         position: point,
         map: map,
         title: place['name'],
-        icon: cafes['styles'][place['style']]
+        icon: icon_subs[place['style']]
       });
       set_popup(marker, place);
     }
