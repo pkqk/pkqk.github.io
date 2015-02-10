@@ -72,6 +72,14 @@
     font-size: 1em;
     margin: 0;
   }
+
+  #coffee-map.fail {
+    background: #fff;
+    color: #555;
+    font-family: sans-serif;
+    font-size: x-large;
+    padding: 5em 1em;
+  }
 </style>
 <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -142,6 +150,13 @@
     }
   };
 
+  window.update_locations_failed = function() {
+      map = document.getElementById('coffee-map');
+      map.className = 'fail';
+      map.setAttribute('style', '');
+      map.innerText = 'Loading cafés failed, Google has probably broken things again.';
+  };
+
   var located = function(position) {
     var point = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
     map.panTo(point);
@@ -165,6 +180,6 @@
   }
 })();
 </script>
-<script src="http://json-argonauts.herokuapp.com/kml.jsonp?callback=update_locations&map=https%3A//www.google.com/maps/d/kml%3Fmid%3Dz-SHV7y-eweE.kg5f6cOL9NSU%26authuser%3D0%26vps%3D2%26ie%3DUTF8%26msa%3D0%26output%3Dkml"></script>
+<script src="http://json-argonauts.herokuapp.com/kml.jsonp?callback=update_locations&errorback=update_locations_failed&map=https%3A//www.google.com/maps/d/kml%3Fmid%3Dz-SHV7y-eweE.kg5f6cOL9NSU%26authuser%3D0%26vps%3D2%26ie%3DUTF8%26msa%3D0%26output%3Dkmz"></script>
 </body>
 </html>
