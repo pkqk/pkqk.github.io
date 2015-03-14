@@ -169,10 +169,7 @@
       clickable: false,
       icon: "/img/map-icons/blue.png"
     });
-    navigator.geolocation.watchPosition(function(position) {
-      point = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-      location_marker.setPosition(point);
-    });
+    location_marker.setPosition(point);
   };
   var error_locating = function(position_error) {};
 
