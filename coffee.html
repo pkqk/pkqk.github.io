@@ -141,11 +141,12 @@
     for(var i=0; i < cafes['placemarks'].length; ++i) {
       var place = cafes['placemarks'][i];
       var point = new google.maps.LatLng(place['latitude'], place['longitude']);
+      var style = place['style'].replace('-nodesc', '');
       var marker = new google.maps.Marker({
         position: point,
         map: map,
         title: place['name'],
-        icon: icon_subs[place['style']]
+        icon: icon_subs[style]
       });
       set_popup(marker, place);
     }
