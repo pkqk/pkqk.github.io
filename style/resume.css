@@ -21,3 +21,6 @@ ul.vcalendar .summary { margin-top: 1em; }
   font-variant: small-caps;
   text-transform: lowercase;
 }
+p#technologies a:hover {
+  border-bottom: none;
+}
