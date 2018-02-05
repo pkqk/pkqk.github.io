@@ -8,21 +8,19 @@ article h3 {
 
 a {
   text-decoration: none;
-  color: #268bd2;
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
   transition: color 0.3s linear;
 }
-a:visited {
-  color: #d33682;
-  color: #268bd2;
+a, a:visited {
+  color: $blue;
 }
 a:active {
-  color: #dc322f;
+  color: $red;
 }
 a:hover {
-  color: #dc322f;
-  border-bottom: 1px dotted #dc322f;
+  color: $red;
+  border-bottom: 1px dotted $red;
 }
 body > footer a:hover {
   text-decoration: none;

@@ -3,16 +3,16 @@
 body {
   margin: 0;
   padding: 0;
-  background: #eee8d5;
-  color: #586e75;
+  background: $base2;
+  color: $base01;
   font-family: "Gill Sans", "Helvetica Neue", Arial, sans-serif;
 }
 body > header, body > article, body > footer {
   padding: 0 10em;
 }
 body > header, body > footer {
-  background: #eee8d5;
-  border-color: #93a1a1;
+  background: $base2;
+  border-color: $base1;
   border-style: dotted;
   border-width: 0;
 }
@@ -35,7 +35,7 @@ article h1, article h2, article h3 {
   font-family: "Ubuntu", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
 }
 body > article {
-  background: #fdf6e3;
+  background: $base3;
   padding-bottom: 5em;
   padding-top: 2em;
 }
@@ -66,7 +66,7 @@ body > footer section.elsewhere:after {
   clear: both;
 }
 body > footer section.credits {
-  color: #93a1a1;
+  color: $base1;
   font-size: 0.8em;
 }
 
