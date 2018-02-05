@@ -3,7 +3,7 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteCond %{REQUEST_METHOD} ^(GET|HEAD)$
 RewriteRule ^(.+) $1.html [QSA]
 RewriteRule ^coffee-map$ http://%{HTTP_HOST}/coffee [QSA,R=301,L]
-RewriteRule ^cv$ http://%{HTTP_HOST}/resume [QSA,R=301,L]
+RewriteRule ^resume$ http://%{HTTP_HOST}/cv [QSA,R=301,L]
 
 AddCharset UTF-8 .html
 
