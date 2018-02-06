@@ -1,0 +1,32 @@
+@keyframes cursor-blink {
+  from { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  to { opacity: 1.0; }
+}
+
+.terminal {
+  display: block;
+  background: url(/img/adm3a.png) no-repeat 50% 50%;
+  background-size: cover;
+  $size: 25vh;
+  $padding-width: 7vh;
+  $padding-top: 4vh;
+  width: $size - 2*$padding-width;
+  height: $size - $padding-top;
+  padding: $padding-top $padding-width 0 $padding-width;
+  font-size: 1vh;
+  color: $white;
+  margin: 0 auto;
+  font-family: monospace;
+  white-space: pre;
+
+  @media print {
+    display: none;
+  }
+
+  .cursor {
+    animation-name: cursor-blink;
+    animation-iteration-count: infinite;
+    animation-duration: 1.0s;
+  }
+}
