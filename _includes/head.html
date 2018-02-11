@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style/{{ page.layout }}.css" media="all">
+<link rel="stylesheet" href="{{ page.layout | prepend: "style/" | append: ".css" | relative_url }}" media="all">
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-3429132-1']);
