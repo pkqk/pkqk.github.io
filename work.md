@@ -11,6 +11,8 @@ The languages I'm currently most familiar with are Python, Ruby and Javascript, 
 
 I am used to working with small teams in an agile development process and some variant of TDD or BDD.
 
+See my [CV](cv).
+
 ## Contact me
 
 Email me at [hi&#64;pkqk.net][enquire], I’m currently considering part time contracts or freelance development work, though I may be looking for full time work later in the year.
