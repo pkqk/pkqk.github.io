@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<link rel="stylesheet" href="{{ page.style | default: page.layout | prepend: "style/" | append: ".css" | relative_url }}" media="all">
+<link rel="stylesheet" href="{{ page.style | default: page.layout | prepend: "/style/" | append: ".css" | relative_url }}" media="all">
 <link rel="author" href="http://pkqk.net">
 <meta name="author" content="Adam Sven Johnson">
 {% if page.description or page.subtitle %}<meta name="description" content="{{ page.description | default: page.subtitle }}">{% endif %}
