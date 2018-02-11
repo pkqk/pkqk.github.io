@@ -1,38 +1,27 @@
-body.error em {
-  display: block;
-  font-size: 450%;
-  font-weight: bold;
-  font-family: "Ubuntu", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
-
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
-  transform: rotate(-2deg);
-  margin: 0.3em 0 0.5em 0;
-
-  text-shadow: 3px 3px 3px #6c71c4;
-
-  -webkit-transition: text-shadow;
-  -webkit-animation: acid 1s linear infinite;
+body {
+  background: #00a;
+  color: #fff;
+  font-family: monospace;
+  margin: 25vh 25vw 0;
+  font-size: 1.2em;
 }
 
-@-webkit-keyframes acid {
-  0% {
-    text-shadow: 0px -3px 7px #6c71c4;
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+
+  span {
+    padding: 1px;
+    background: #aaa;
+    color: #00a;
   }
-  12% {
-    text-shadow: 1.8px -1.8px 7px #6c71c4;
-  }
-  25% {
-    text-shadow: 3px 0px 3px #cb4b16 ;
-  }
-  50% {
-    text-shadow: 0x 3px -3px #2aa198 ;
-  }
-  75% {
-    text-shadow: -3px -2px 6px #268bd2;
-  }
-  100% {
-    text-shadow: 0px -3px 7px #6c71c4;
-  }
+}
+
+ul {
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+
+p.anykey {
+  text-align: center;
 }
