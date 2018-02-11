@@ -1,6 +1,5 @@
 ---
 layout: hresume
-header: none
 style: default
 title: <a id="name" href="http://pkqk.net/" class="fn url">Adam Sven Johnson</a>
 subtitle: I make internet things, and <a href="http://instagram.com/p/PgciyaAJlk/">I really like coffee</a>
