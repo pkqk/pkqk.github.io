@@ -53,7 +53,6 @@ $ <span class="cursor">&#95;</span></pre>
     <p class="description">
       My main achievement was to support more than one operational location, allowing the business to expand from its first location in South London opening a secondary location in Bristol and to start planning for UK wide operations.
     </p>
-    </h3>
   </li>
   <li class="experience vevent vcard">
     <a href="#name" class="include"></a>
