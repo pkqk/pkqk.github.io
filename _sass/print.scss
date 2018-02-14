@@ -3,4 +3,11 @@
   h3 a[href^="http"]::after {
     content: " (" attr(href) ")";
   }
+  body > article {
+    margin: 0;
+    padding: 1em;
+  }
+  footer, p#technologies {
+    display: none;
+  }
 }

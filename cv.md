@@ -14,6 +14,12 @@ $ <span class="cursor">&#95;</span></pre>
 </tt>
 </aside>
 
+<h2>Contact</h2>
+<address class="contact vcard">
+  <a href="{{ site.url }}" class="fn url">Adam Sven Johnson</a>
+  <p><a class="email" href="m&#x61;&#x69;lto:hi&#64;pkqk.net">hi&#64;pkqk.net</a></p>
+</address>
+
 <section class="summary">
   <p>
     I'm a Technical Team Lead/Full Stack Developer with over 10 years experience in a wide range of web development technologies.
@@ -25,11 +31,6 @@ $ <span class="cursor">&#95;</span></pre>
     Personal interests include coffee, fermentation and food of all sorts, cycling and maps.
   </p>
 </section>
-<h2>Contact</h2>
-<address class="contact vcard">
-  <a href="{{ site.url }}" class="fn url">Adam Sven Johnson</a>
-  <p><a class="email" href="m&#x61;&#x69;lto:hi&#64;pkqk.net">hi&#64;pkqk.net</a></p>
-</address>
 <h2 class="page-break">Employment history</h2>
 <ul class="vcalendar">
   <li class="experience vevent vcard">
