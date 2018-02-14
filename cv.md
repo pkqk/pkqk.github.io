@@ -1,7 +1,7 @@
 ---
 layout: hresume
 style: default
-title: <a id="name" href="http://pkqk.net/" class="fn url">Adam Sven Johnson</a>
+title: <a id="name" href="http://pkqk.net" class="fn url">Adam Sven Johnson</a>
 subtitle: I make internet things, and <a href="http://instagram.com/p/PgciyaAJlk/">I really like coffee</a>
 description: The CV of Technical Lead and Full Stack Developer Adam Sven Johnson
 ---
@@ -59,7 +59,7 @@ $ <span class="cursor">&#95;</span></pre>
     <a href="#name" class="include"></a>
     <h3 class="summary">
       <span class="title">Developer</span>
-      at <a class="fn org url" href="http://theodi.org/">The ODI</a>
+      at <a class="fn org url" href="http://theodi.org">The ODI</a>
     </h3>
     <p>
       <span class="adr"><span class="locality">London</span>, <span class="country-name">UK</span></span>
@@ -95,7 +95,7 @@ $ <span class="cursor">&#95;</span></pre>
     <a href="#name" class="include"></a>
     <h3 class="summary">
       <span class="title">Developer</span>
-      at <a class="fn org url" href="http://myhealthpal.com/">myHealthPal</a>
+      at <a class="fn org url" href="http://myhealthpal.com">myHealthPal</a>
     </h3>
     <p>
       <span class="adr"><span class="locality">London</span>, <span class="country-name">UK</span></span>
@@ -113,7 +113,7 @@ $ <span class="cursor">&#95;</span></pre>
     <a href="#name" class="include"></a>
     <h3 class="summary">
       <span class="title">Software engineer</span>
-      at <a class="fn org url" href="http://berglondon.com/">BERG</a>
+      at <a class="fn org url" href="http://berglondon.com">BERG</a>
     </h3>
     <p>
       <span class="adr"><span class="locality">London</span>, <span class="country-name">UK</span></span>
@@ -131,7 +131,7 @@ $ <span class="cursor">&#95;</span></pre>
     <a href="#name" class="include"></a>
     <h3 class="summary">
       <span class="title">Developer</span>
-      at <a class="fn org url" href="http://www.artfinder.com/">Artfinder</a>
+      at <a class="fn org url" href="http://www.artfinder.com">Artfinder</a>
     </h3>
     <p>
       <span class="adr"><span class="locality">London</span>, <span class="country-name">UK</span></span>
@@ -146,7 +146,7 @@ $ <span class="cursor">&#95;</span></pre>
     <a href="#name" class="include"></a>
     <h3 class="summary">
       <span class="title">Developer</span>
-      at <a class="fn org url" href="http://www.reevoo.com/">Reevoo</a>
+      at <a class="fn org url" href="http://www.reevoo.com">Reevoo</a>
     </h3>
     <p>
       <span class="adr"><span class="locality">London</span>, <span class="country-name">UK</span></span>
@@ -161,7 +161,7 @@ $ <span class="cursor">&#95;</span></pre>
     <a href="#name" class="include"></a>
     <h3 class="summary">
       <span class="title">Developer</span>
-      at <a class="fn org url" href="http://trikeapps.com/">Tricycle Apps</a>
+      at <a class="fn org url" href="http://trikeapps.com">Tricycle Apps</a>
     </h3>
     <p>
     <span class="adr"><span class="locality">Melbourne</span>, <span class="country-name">Australia</span></span>
@@ -176,7 +176,7 @@ $ <span class="cursor">&#95;</span></pre>
     <a href="#name" class="include"></a>
     <h3 class="summary">
       <span class="title">Software developer</span>
-      at <a class="fn org url" href="http://www.idiomsoftware.com/">Idiom Software</a>
+      at <a class="fn org url" href="http://www.idiomsoftware.com">Idiom Software</a>
     </h3>
     <p>
     <span class="adr"><span class="locality">Auckland</span>, <abbr class="country-name" title="New Zealand">NZ</abbr></span>
@@ -191,7 +191,7 @@ $ <span class="cursor">&#95;</span></pre>
     <a href="#name" class="include"></a>
     <h3 class="summary">
       <span class="title">Web developer</span>
-      at <a class="fn org url" href="http://www.zeald.com/">Zeald</a>
+      at <a class="fn org url" href="http://www.zeald.com">Zeald</a>
     </h3>
     <p>
     <span class="adr"><span class="locality">Auckland</span>, <abbr class="country-name" title="New Zealand">NZ</abbr></span>
@@ -215,14 +215,14 @@ $ <span class="cursor">&#95;</span></pre>
     </p>
   </li>
   <li class="education vevent vcard">
-    <h3 class="summary"><a class="url fn org" href="http://www.outwardbound.co.nz/">Outward Bound</a></h3>
+    <h3 class="summary"><a class="url fn org" href="http://www.outwardbound.co.nz">Outward Bound</a></h3>
     <p class="period">
       <abbr class="dtstart" title="2004-01-31">February 2004</abbr><abbr class="dtend" title="2004-02-20"></abbr>
     </p>
     <p class="description"><abbr class="duration" title="P2D">21 day Classic course</abbr></p>
   </li>
   <li class="education vevent vcard">
-    <h3 class="summary fn org"><a class="url" href="http://www.auckland.ac.nz/">University of Auckland</a></h3>
+    <h3 class="summary fn org"><a class="url" href="http://www.auckland.ac.nz">University of Auckland</a></h3>
     <p class="period"><abbr class="dtstart" title="2000-01-01">2000</abbr> — <abbr class="dtend" title="2003-12-31">2003</abbr></p>
     <p class="description">
       <span class="degree">BSc (Hons)</span> in <span class="major">Computer science</span>
