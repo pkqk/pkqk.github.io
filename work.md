@@ -1,9 +1,9 @@
 ---
 title: Hire me
-subtitle: I’m available for hire
+description: I’m available for hire
 ---
 
-# I'm available for contracts or freelance development in Auckland🇳🇿 or remotely🌏
+I'm available for contracts or freelance development in Auckland🇳🇿 or remotely🌏 and I am open to the right full time role.
 
 Most recently have been leading a team on the rearchitecture of a running system to support multiple sites. The system is now running smoothly supporting two locations with more planned to open.
 

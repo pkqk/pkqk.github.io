@@ -1,0 +1,11 @@
+footer:before {
+  content: "👣";
+  display: block;
+  text-align: center;
+  margin-top: 5em;
+}
+
+footer section.credits {
+  font-size: 75%;
+  color: $base1;
+}

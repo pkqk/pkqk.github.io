@@ -1,5 +1,11 @@
 ---
 ---
 @import "solarized";
-@import "basic", "layout", "mobile", "resume", "print";
+@import "normalize";
+@import "typography";
+@import "header";
+@import "footer";
+@import "index";
+@import "resume";
+// @import "basic", "layout", "mobile", "resume", "print";
 @import "terminal";

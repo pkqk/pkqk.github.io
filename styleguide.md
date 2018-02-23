@@ -1,6 +1,6 @@
 ---
 title: Site Style Guide
-subtitle: All elements in one place for one low price
+description: All elements in one place for one low price
 ---
 
 From [poormansstyleguide.com](https://www.poormansstyleguide.com) via [chenhuijing.com/styleguide](https://www.chenhuijing.com/styleguide/)

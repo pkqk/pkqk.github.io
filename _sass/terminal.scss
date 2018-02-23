@@ -15,13 +15,17 @@
   height: $size - $padding-top;
   padding: $padding-top $padding-width 0 $padding-width;
   font-size: 1vh;
-  color: $white;
+  color: $light;
   margin: 0 auto;
   font-family: monospace;
   white-space: pre;
 
   @media print {
     display: none;
+  }
+
+  pre {
+    background-color: transparent;
   }
 
   .cursor {

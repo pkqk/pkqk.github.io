@@ -1,0 +1,47 @@
+article {
+  padding-top: 2em;
+}
+
+.instagram {
+  @include link-color($magenta)
+  // position: relative;
+  // margin-left: 1em;
+  //
+  // &:before {
+  //   content: "";
+  //   display: inline-block;
+  //   position: absolute;
+  //   background: url(https://www.instagram.com/favicon.ico) no-repeat 0 0;
+  //   background-size: 16px 16px;
+  //   margin-right: 2px;
+  //   left: -1em;
+  //   top: 0.25em;
+  //   height: 1em;
+  //   width: 1em;
+  //   border-bottom: none;
+  // }
+}
+
+.twitter {
+  @include link-color($blue)
+}
+
+.github {
+  @include link-color($yellow)
+}
+
+.lastfm {
+  @include link-color($red)
+}
+
+.spotify {
+  @include link-color($green)
+}
+
+.facebook {
+  @include link-color($violet)
+}
+
+.linkedin {
+  @include link-color($cyan)
+}
