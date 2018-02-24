@@ -28,7 +28,7 @@ $ <span class="cursor">&#95;</span></pre>
     I'm a Technical Team Lead/Full Stack Developer with over 10 years experience in a wide range of web development technologies.
   </p>
   <p>
-    I focus mainly on the back end of the web stack, building APIs and robust services and have done some work using modern front end web technologies.
+    I focus mainly on the back end of the web stack, building APIs and robust services, and have done some work using modern front end web technologies.
   </p>
   <p>
     Personal interests include coffee, fermentation and food of all sorts, cycling and maps.
@@ -46,7 +46,7 @@ $ <span class="cursor">&#95;</span></pre>
       <span class="adr"><span class="locality">{{ job.adr_locality }}</span>, <span class="country-name">{{ job.adr_country }}</span></span>
       from
       <span class="period">
-        <abbr class="dtstart" title="{{ job.date_start }}">{{ job.date_start | date: "%B %Y" }}</abbr> until
+        <abbr class="dtstart" title="{{ job.date_start }}">{{ job.date_start | date: "%B %Y" }}</abbr>-
         <abbr class="dtend" title="{{ job.date_end }}">{{ job.date_end | date: "%B %Y" }}</abbr>
       </span>
     </p>
