@@ -8,4 +8,4 @@ company: myHealthPal
 link: http://myhealthpal.com
 ---
 
-I designed a patient information storage system that needed to deal with international data protection issues in order to make a potentially global product comply with HIPPA and UK/EU Data Protection law.
+I architected a patient information storage system that complied with international data protection regulations, enabling the product to scale internationally.
