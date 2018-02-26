@@ -6,4 +6,5 @@ adr_locality: London
 adr_country: UK
 company: Artfinder
 link: http://www.artfinder.com
+logo: artfinder
 ---

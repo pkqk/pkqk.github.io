@@ -38,12 +38,9 @@ $ <span class="cursor">&#95;</span></pre>
 <ul class="vcalendar">
   {% for job in site.experience reversed %}
   <li class="experience vevent vcard">
+    <img class="logo" src="/img/experience/{{ job.logo }}.png" alt="">
     <p class="summary">
       <strong class="title">{{ job.title }}</strong>
-    </p>
-    <p>
-      <a class="fn org url" href="{{ job.link }}">{{ job.company }}</a>,
-      <span class="adr"><span class="locality">{{ job.adr_locality }}</span>, <span class="country-name">{{ job.adr_country }}</span></span>
     </p>
     <p>
       <span class="period">
@@ -51,6 +48,10 @@ $ <span class="cursor">&#95;</span></pre>
         &ndash;
         <abbr class="dtend" title="{{ job.date_end }}">{{ job.date_end | date: "%B %Y" }}</abbr>
       </span>
+    </p>
+    <p>
+      <a class="fn org url" href="{{ job.link }}">{{ job.company }}</a>,
+      <span class="adr"><span class="locality">{{ job.adr_locality }}</span>, <span class="country-name">{{ job.adr_country }}</span></span>
     </p>
     {% if job.content != blank %}
     <div class="description">

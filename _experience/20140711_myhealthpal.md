@@ -6,6 +6,7 @@ adr_locality: London
 adr_country: UK
 company: myHealthPal
 link: http://myhealthpal.com
+logo: mhp
 ---
 
 I architected a patient information storage system that complied with international data protection regulations, enabling the product to scale internationally.
