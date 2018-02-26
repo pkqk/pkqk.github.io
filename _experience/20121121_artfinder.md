@@ -8,3 +8,7 @@ company: Artfinder
 link: http://www.artfinder.com
 logo: artfinder
 ---
+
+Artfinder started as a recommendation engine for visual art and then pivoted into print sales of emerging artists.
+
+In the Artfinder team I worked in Python and Django ingesting large collections of art works from partners and working on new ways of recommending and helping people discover art they liked.
