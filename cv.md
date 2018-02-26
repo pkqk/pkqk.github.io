@@ -39,14 +39,16 @@ $ <span class="cursor">&#95;</span></pre>
   {% for job in site.experience reversed %}
   <li class="experience vevent vcard">
     <p class="summary">
-      <strong class="title">{{ job.title }}</strong> at
-      <a class="fn org url" href="{{ job.link }}">{{ job.company }}</a>
+      <strong class="title">{{ job.title }}</strong>
     </p>
     <p>
+      <a class="fn org url" href="{{ job.link }}">{{ job.company }}</a>,
       <span class="adr"><span class="locality">{{ job.adr_locality }}</span>, <span class="country-name">{{ job.adr_country }}</span></span>
-      from
+    </p>
+    <p>
       <span class="period">
-        <abbr class="dtstart" title="{{ job.date_start }}">{{ job.date_start | date: "%B %Y" }}</abbr>-
+        <abbr class="dtstart" title="{{ job.date_start }}">{{ job.date_start | date: "%B %Y" }}</abbr>
+        &ndash;
         <abbr class="dtend" title="{{ job.date_end }}">{{ job.date_end | date: "%B %Y" }}</abbr>
       </span>
     </p>
