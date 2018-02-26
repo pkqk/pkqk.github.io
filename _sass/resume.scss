@@ -1,4 +1,7 @@
 .hresume {
+  abbr {
+    text-decoration: none;
+  }
   .contact.vcard p { margin: 0; }
   address.vcard { font-style: normal; }
   ul.vcalendar { padding-left: 0; margin-left: 0; }
