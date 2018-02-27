@@ -78,6 +78,7 @@ $ <span class="cursor">&#95;</span></pre>
   {% endfor %}
 </ul>
 <p class="formats">
+  <a class="pdf" title="Download as PDF" href="/pdf/adamsvenjohnson-cv.pdf"><img alt="PDF" src="/img/pdf.png"></a>
   <a rel="tag" title="Resumé marked up using microformats." href="http://microformats.org/wiki/hresume"><img alt="This page uses microformats" src="/img/microformats.png"></a>
   <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a>
 </p>

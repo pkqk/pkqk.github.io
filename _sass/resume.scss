@@ -28,4 +28,9 @@
     }
   }
   a.tel { display: none; }
+
+  @media print {
+    a.pdf { display: none; }
+    a.tel { display: initial; }
+  }
 }
