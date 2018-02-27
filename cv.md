@@ -16,6 +16,11 @@ $ <span class="cursor">&#95;</span></pre>
 </tt>
 </aside>
 
+<header>
+  <h1>Adam Sven Johnson</h1>
+  <p>Technical team lead & Senior developer</p>
+</header>
+
 <h2>Contact</h2>
 <address class="contact vcard">
   <a href="{{ site.url }}" class="fn url">Adam Sven Johnson</a>
@@ -25,7 +30,7 @@ $ <span class="cursor">&#95;</span></pre>
 
 <section class="summary">
   <p>
-    I'm a Technical team lead/Full stack developer with over 10 years experience in a wide range of web development technologies.
+    I'm a Technical team lead & Senior developer with over 10 years experience in a wide range of web development technologies.
   </p>
   <p>
     I focus mainly on the back end of the web stack, building APIs and robust services, and have done some work using modern front end web technologies.
