@@ -21,7 +21,7 @@ $ <span class="cursor">&#95;</span></pre>
   <p>Technical team lead & Senior developer</p>
 </header>
 
-<h2>Contact</h2>
+<h2>About</h2>
 <address class="contact vcard">
   <a href="{{ site.url }}" class="fn url">Adam Sven Johnson</a>
   <p><a class="email" href="m&#x61;&#x69;lto:hi&#64;pkqk.net">hi&#64;pkqk.net</a></p>
