@@ -13,4 +13,4 @@ Artfinder started as a recommendation engine for visual art and then pivoted int
 
 In the Artfinder team I worked in Python and Django ingesting large collections of art works from partners and working on new ways of recommending and helping people discover art they liked.
 
-Technologies used: Python/Django, PostgreSQL, Redis, Memcached, Varnish, AWS, Puppet.
+Technologies used: Python/Django, PostgreSQL, Javascript/HTML5, Redis, Memcached, Varnish, AWS, Puppet.
