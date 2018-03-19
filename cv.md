@@ -83,15 +83,12 @@ $ <span class="cursor">&#95;</span></pre>
   {% endfor %}
 </ul>
 <h2>Skills</h2>
-<table>
+
 {% for skill in site.skills %}
-<tr>
-<td>{{ skill.name }}</td>
-<td>{{ skill.strength }}</td>
-<td>{{ skill.content }}</td>
-</tr>
+<strong>{{ skill.name }} <small>({{ skill.strength }})</small></strong>
+{{ skill.content }}
 {% endfor %}
-</table>
+
 <p class="formats">
   <a class="pdf" title="Download as PDF" href="/pdf/adamsvenjohnson-cv.pdf"><img alt="PDF" src="/img/pdf.png"></a>
   <a rel="tag" title="Resumé marked up using microformats." href="http://microformats.org/wiki/hresume"><img alt="This page uses microformats" src="/img/microformats.png"></a>
