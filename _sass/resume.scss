@@ -33,4 +33,13 @@
     a.pdf { display: none; }
     a.tel { display: initial; }
   }
+
+  table {
+    td, th {
+      vertical-align: top;
+    }
+    p {
+      margin: 0;
+    }
+  }
 }

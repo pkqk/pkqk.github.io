@@ -39,6 +39,16 @@ $ <span class="cursor">&#95;</span></pre>
     Personal interests include coffee, fermentation and food of all sorts, cycling and maps.
   </p>
 </section>
+<h2>Skills</h2>
+<table>
+{% for skill in site.skills %}
+<tr>
+<td>{{ skill.name }}</td>
+<td>{{ skill.strength }}</td>
+<td>{{ skill.content }}</td>
+</tr>
+{% endfor %}
+</table>
 <h2 class="page-break">Employment history</h2>
 <ul class="vcalendar">
   {% for job in site.experience reversed %}
