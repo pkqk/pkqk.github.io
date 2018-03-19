@@ -36,6 +36,8 @@ $ <span class="cursor">&#95;</span></pre>
     I focus mainly on the back end of the web stack, building APIs and robust services, and have done some work using modern front end web technologies.
   </p>
   <p>
+    The current languages I have the most experience in are Ruby and Python and I'm also interested in newer languages like Go.
+  <p>
     Personal interests include coffee, fermentation and food of all sorts, cycling and maps.
   </p>
 </section>
