@@ -37,6 +37,7 @@ $ <span class="cursor">&#95;</span></pre>
   </p>
   <p>
     The current languages I have the most experience in are Ruby and Python and I'm also interested in newer languages like Go.
+  </p>
   <p>
     Personal interests include coffee, fermentation and food of all sorts, cycling and maps.
   </p>
