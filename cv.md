@@ -41,6 +41,9 @@ $ <span class="cursor">&#95;</span></pre>
   <p>
     Personal interests include coffee, fermentation and food of all sorts, cycling and maps.
   </p>
+  <p>
+    I'm a New Zealand citizen who has been working in the UK until recently.
+  </p>
 </section>
 <h2 class="page-break">Employment history</h2>
 <ul class="vcalendar">
