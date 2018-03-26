@@ -1,6 +1,7 @@
 ---
 title: Hire me
 description: I’m available for hire
+footer_promo: none
 ---
 
 I'm available for contracts or freelance development in Auckland🇳🇿 or remotely🌏 and I am open to the right full time role.

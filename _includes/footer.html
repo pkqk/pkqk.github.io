@@ -1,8 +1,10 @@
 {% if page.footer != "none" %}
 <footer>
+  {% if page.footer_promo != "none" %}
   <section>
     <p>I'm based in Auckland, NZ and I'm currently looking for <a href="/work">work</a>, check out my <a href="/cv">CV</a>.</p>
   </section>
+  {% endif %}
   <section class="credits">
     <p>The <a href="/styleguide">stylesheet</a> is based on <a href="https://oxal.org/projects/sakura/">sakura</a> and the colour choices come from the very clever <a href="http://ethanschoonover.com/solarized">solarized</a> project.</p>
   </section>
