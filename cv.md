@@ -25,7 +25,7 @@ $ <span class="cursor">&#95;</span></pre>
 <address class="contact vcard">
   <a href="{{ site.url }}" class="fn url">Adam Sven Johnson</a>
   <p><a class="email" href="m&#x61;&#x69;lto:hi&#64;pkqk.net">hi&#64;pkqk.net</a></p>
-  <p><a class="tel" href="tel://&#x2B;&#x36;&#x34;&#x32;&#x32;&#x36;&#x32;&#x32;&#x39;&#x33;&#x32;">&#x2B;&#x36;&#x34;&#x20;&#x32;&#x32;&#x20;&#x36;&#x32;&#x32;&#x20;&#x39;&#x38;&#x33;&#x32;</a></p>
+  <p class="stealth"><a class="tel" href="tel://&#x2B;&#x36;&#x34;&#x32;&#x32;&#x36;&#x32;&#x32;&#x39;&#x33;&#x32;">&#x2B;&#x36;&#x34;&#x20;&#x32;&#x32;&#x20;&#x36;&#x32;&#x32;&#x20;&#x39;&#x38;&#x33;&#x32;</a> <small>(please organise a time via email or text before calling)</small></p>
 </address>
 
 <section class="summary">
