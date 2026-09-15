@@ -88,12 +88,6 @@ $ <span class="cursor">&#95;</span></pre>
   </li>
   {% endfor %}
 </ul>
-<h2>Skills</h2>
-
-{% for skill in site.skills %}
-<strong>{{ skill.name }} <small>({{ skill.strength }})</small></strong>
-{{ skill.content }}
-{% endfor %}
 
 <p class="formats">
   <a class="pdf" title="Download as PDF" href="/pdf/adamsvenjohnson-cv.pdf"><img alt="PDF" src="/img/pdf.png"></a>
