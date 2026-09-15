@@ -1,7 +1,7 @@
 ---
 title: Freelance developer
 date_start: 2018-02-16
-date_end: present
+date_end: 2018-04-01
 adr_locality: Auckland
 adr_country: NZ
 company: PressPatron
@@ -11,6 +11,6 @@ logo: presspatron
 
 PressPatron makes it easy to support the future of journalism, via crowdfunding, membership payments and donations.
 
-I'm helping improve the application from a prototype to an application that will handle traffic from several popular news sites.
+I helped improve the application from a prototype to an application that will handle traffic from several popular news sites.
 
-Technologies used: Ruby on Rails, Docker, Chef, PostgreSQL, MariaDB, AWS, Stripe, PHP
+Technologies used: Ruby on Rails, Docker, Chef, PostgreSQL, MariaDB, AWS, Stripe, PHP.
