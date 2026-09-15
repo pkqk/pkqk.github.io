@@ -3,7 +3,7 @@ layout: hresume
 style: default
 title: <a id="name" href="http://pkqk.net" class="fn url">Adam Sven Johnson</a>
 subtitle: I make internet things, and <a href="http://instagram.com/p/PgciyaAJlk/">I really like coffee</a>
-description: The CV of Technical Lead and Full Stack Developer Adam Sven Johnson
+description: The CV of principal engineer Adam Sven Johnson
 footer: none
 header: none
 ---
@@ -18,7 +18,7 @@ $ <span class="cursor">&#95;</span></pre>
 
 <header>
   <h1>Adam Sven Johnson</h1>
-  <p>Technical team lead & Senior developer</p>
+  <p>Principal engineer</p>
 </header>
 
 <h2>About</h2>
@@ -30,19 +30,19 @@ $ <span class="cursor">&#95;</span></pre>
 
 <section class="summary">
   <p>
-    I'm a Technical team lead & Senior developer with over 10 years experience in a wide range of web development technologies.
+    I'm a principal engineer with over 20 years experience in a wide range of web development technologies.
   </p>
   <p>
-    I focus mainly on the back end of the web stack, building APIs and robust services, and have done some work using modern front end web technologies.
+    I focus mainly on the backend of the web stack, building APIs and robust services, and have done some work using modern front end web technologies.
   </p>
   <p>
-    The current languages I have the most experience in are Ruby and Python and I'm also interested in newer languages like Go.
+    The language I'm currently the most familiar with is Go, and I also make use of some Python and Typescript.
   </p>
   <p>
-    Personal interests include coffee, fermentation and food of all sorts, cycling and maps.
+    Personal interests include coffee, fermentation and food of all sorts, cycling, music and maps.
   </p>
   <p>
-    I'm a New Zealand citizen who has been working in the UK until recently.
+    I'm a New Zealand citizen.
   </p>
 </section>
 <h2 class="page-break">Employment history</h2>
