@@ -1,10 +1,10 @@
 ---
-title: You could've hired me…
-description: But I’m currently employed
+title: I'm currently employed…
+description: but make me an offer I can't refuse
 footer_promo: none
 ---
 
-After moving back to Auckland🇳🇿 I've started working for <a href="http://movio.co">Movio</a> and am excited to get to use a different language (Go) after working in Ruby for so long.
+Since returning to Tāmaki Makaurau/Auckland🇳🇿 I've been working for <a href="https://movio.co">Movio</a> which has been absorbed into <a href="https://vistagroup.co">Vista</a>. I work mainly in <a href="https://go.dev/">Go</a> and deploy to and adminster <a href="https://kubernetes.io/">kubernetes</a> on <a href="https://aws.amazon.com">AWS</a>.
 
 See my [CV](cv).
 
