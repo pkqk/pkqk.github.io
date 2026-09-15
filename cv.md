@@ -80,7 +80,7 @@ $ <span class="cursor">&#95;</span></pre>
       <strong class="summary">{{ course.course }}</strong>
       <span class="period">
         <abbr class="dtstart" title="{{ course.date_start }}"></abbr><abbr class="dtend" title="{{ course.date_end }}">{{ course.date_end | date: "%Y" }}</abbr>
-      </span>      
+      </span>
     </p>
     <p>
       <a class="url fn org" href="{{ course.link }}">{{ course.instiution }}</a>
